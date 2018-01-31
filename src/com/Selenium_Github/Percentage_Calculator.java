@@ -10,6 +10,7 @@ public class Percentage_Calculator {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "D:\\DUCAT\\Seleniam Automation\\Gmail Login\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		//Comment add 
 		driver.manage().window().maximize();
 		driver.navigate().to("http://www.calculator.net");
 		driver.findElement(By.linkText("Math Calculators")).click();
